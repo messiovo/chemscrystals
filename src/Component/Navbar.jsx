@@ -4,17 +4,26 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const navHandler = () =>{
-    setOpen (!open)
-  }
+  const navHandler = () => {
+    setOpen(!open);
+  };
 
   return (
     <div>
       <nav className="flex  p-5 items-center justify-between">
-        <div className="pl-8" onClick={navHandler} onBlur={() => setOpen(false)} tabIndex={24}>
-          <span className="w-14 h-1 cursor-pointer rounded-full  bg-[#495371] block after:content-[''] after:relative before:w-16 after:h-1 after:bg-[#495371] after:block after:mt-2 after:float-right after:ml-auto before:content-[''] before:relative after:w-14 before:h-1 before:mt-3 before:float-right before:ml-auto before:bg-[#495371] before:block self-end before:self-end after:self-end before:rounded-full after:rounded-full"></span>
+        <div
+          className="pl-8 cursor-pointer"
+          onClick={navHandler}
+          onBlur={() => setOpen(false)}
+          tabIndex={24}
+        >
+          <span className="w-14 h-1  rounded-full  bg-[#495371] block after:content-[''] after:relative before:w-16 after:h-1 after:bg-[#495371] after:block after:mt-2 after:float-right after:ml-auto before:content-[''] before:relative after:w-14 before:h-1 before:mt-3 before:float-right before:ml-auto before:bg-[#495371] before:block self-end before:self-end after:self-end before:rounded-full after:rounded-full"></span>
         </div>
-        <ul className={`${!open ? 'left-[-12rem]' : 'left-0'} bg-[#495371] flex flex-col gap-16 p-10 h-screen absolute  top-14 font-semibold text-[#FDDB93] transition-all duration-500 ease-in`}>
+        <ul
+          className={`${
+            !open ? "left-[-12rem]" : "left-0"
+          } bg-[#495371] flex flex-col gap-16 p-10 h-screen absolute  top-14 font-semibold text-[#FDDB93] transition-all duration-500 ease-in`}
+        >
           <li>
             <Link to="/" className="flex gap-2 items-center">
               <span>
