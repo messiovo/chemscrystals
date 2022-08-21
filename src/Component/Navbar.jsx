@@ -22,7 +22,7 @@ const Navbar = () => {
         <ul
           className={`${
             !open ? "left-[-12rem]" : "left-0"
-          } bg-[#495371] flex flex-col gap-16 p-10 h-screen absolute  top-14 font-semibold text-[#FDDB93] transition-all duration-500 ease-in`}
+          } bg-[#495371] flex flex-col gap-16 p-10 h-screen absolute  top-[4.5rem] font-semibold text-[#FDDB93] transition-all duration-500 ease-in`}
         >
           <li>
             <Link to="/" className="flex gap-2 items-center">
