@@ -8,14 +8,14 @@ const Hero = () => {
     <div className='bg-[#05185B] '>
       <div className='flex flex-col lg:flex-row py-20 justify-around'>
         <div className='text-white flex flex-col'>
-          <img src={hero1} alt="" className='w-80 rounded-xl shadow-md'/>
+          <img src={hero1} alt="" className='w-80 rounded-xl shadow-sm'/>
           <div className='pt-10 text-center'>
             <h2 className='text-2xl font-bold'>Abacus Mental Math</h2>
             <p>Create genius in mathematics with speed and accuracy</p>
           </div>
         </div>
         <div className='text-white flex flex-col lg:flex-col-reverse'>
-          <img src={hero2} alt="" className='w-80 rounded-xl  shadow-md pb-10 lg:pt-10'  />
+          <img src={hero2} alt="" className='w-80 rounded-xl shadow-md pb-10 lg:pt-10'  />
           <div className='text-center'>
             <h2 className='text-2xl font-bold'>Kids Coding</h2>
             <p>help your kids discovery the tech in them</p>
