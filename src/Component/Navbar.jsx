@@ -9,10 +9,10 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <div className="bg-[#FDDB93]">
       <nav className="flex  p-5 items-center justify-between">
         <div
-          className="pl-8 cursor-pointer"
+          className="pl-7 cursor-pointer lg:pl-8"
           onClick={navHandler}
           onBlur={() => setOpen(false)}
           tabIndex={24}
@@ -21,8 +21,8 @@ const Navbar = () => {
         </div>
         <ul
           className={`${
-            !open ? "left-[-12rem]" : "left-0"
-          } bg-[#495371] flex flex-col gap-16 p-10 h-screen absolute  top-[4.5rem] font-semibold text-[#FDDB93] transition-all duration-500 ease-in`}
+            !open ? "left-[-17rem]" : "left-0"
+          } bg-[#495371] flex flex-col gap-16 p-10 h-screen absolute  top-[4.5rem] font-semibold text-[#FDDB93] transition-all duration-500 ease-in w-[20%]`}
         >
           <li>
             <Link to="/" className="flex gap-2 items-center">
@@ -136,8 +136,9 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <div className="flex items-center pr-10">
-          <img src={logo} alt="" className="w-6 h-8" />
+        <div className="flex items-center pr-6 gap-2 lg:pr-8">
+          <img src={logo} alt="" className="w-4 h-5 lg:w-6 lg:h-8" />
+          <h3 className="font-bold text-[#495371] text-sm lg:text-xl">ChemsCrystals</h3>
         </div>
       </nav>
     </div>
