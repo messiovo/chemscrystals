@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <>
-      <div className="bg-[#495371] pb-8 flex  items-center flex-col-reverse  lg:flex-row lg:p-20">
+      <div className="bg-[#495371] pb-8 flex  items-center flex-col-reverse  lg:flex-row lg:p-20 mx-8">
         <div className="lg:w-2/4 text-[#FDDB93] px-4 lg:px-14 pt-10 lg:pt-0">
           <h1 className="font-bold text-2xl lg:text-4xl md:text-3xl pb-4 text-center">
             Let’s improve the coding <br/> and mental skill of your <br/> ward

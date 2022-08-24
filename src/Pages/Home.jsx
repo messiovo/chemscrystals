@@ -7,18 +7,20 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <div className="py-10">
+      <div className="py-10 mx-8">
         <p className="text-[#495371] text-center text-2xl lg:text-3xl font-bold">
           we work with schools to <br />
           organize kids coding and <br /> abacus mental math for your pupils.
         </p>
       </div>
-      <section className="flex flex-col items-center justify-center lg:flex-row bg-[#74959A] px-10 py-10">
+      <section className="flex flex-col items-center justify-center lg:flex-row bg-[#74959A] px-10 py-10 mx-8">
         <div className="lg:w-2/4">
           <img src={hero1} alt="" className="w-[80%] m-auto" />
         </div>
         <div className="lg:w-2/4 text-center text-[#FDDB93] p-6">
-          <h2 className="text-2xl lg:text-3xl font-bold pb-4">Abacus Mental Math</h2>
+          <h2 className="text-2xl lg:text-3xl font-bold pb-4">
+            Abacus Mental Math
+          </h2>
           <p className="text-lg lg:text-xl leading-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -29,8 +31,8 @@ const Home = () => {
           </p>
         </div>
       </section>
-      <section className="flex flex-col-reverse items-center justify-center lg:flex-row bg-[#98B4AA] px-10 py-10">
-      <div className="lg:w-2/4 text-center text-[#495371] p-6">
+      <section className="flex flex-col-reverse items-center justify-center lg:flex-row bg-[#98B4AA] px-10 py-10 mx-8">
+        <div className="lg:w-2/4 text-center text-[#495371] p-6">
           <h2 className="text-2xl lg:text-3xl font-bold pb-4">Kids Coding</h2>
           <p className="text-lg lg:text-xl leading-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -43,7 +45,17 @@ const Home = () => {
         </div>
         <div className="lg:w-2/4">
           <img src={hero3} alt="" className="w-[80%] m-auto" />
-        </div>        
+        </div>
+      </section>
+      <section className="mx-8 h-60 bg-[url(./image/secttion2.jpg)] bg-[#74959A]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
+        <h1 className="text-center text-2xl lg:text-3xl">
+          Student Practice Center
+        </h1>
+        <p className="text-lg lg:text-xl leading-8">
+          ed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae.totam{" "}
+        </p>
       </section>
     </div>
   );

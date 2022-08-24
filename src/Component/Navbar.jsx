@@ -4,8 +4,14 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [backdrop, setBackdrop] = useState(false);
   const navHandler = () => {
     setOpen(!open);
+    setBackdrop(!backdrop);
+  };
+  const blurBody = () => {
+    setOpen(false);
+    setBackdrop(false);
   };
 
   return (
@@ -14,15 +20,20 @@ const Navbar = () => {
         <div
           className="pl-7 cursor-pointer lg:pl-8"
           onClick={navHandler}
-          onBlur={() => setOpen(false)}
+          onBlur={blurBody}
           tabIndex={24}
         >
-          <span className="w-14 h-1  rounded-full  bg-[#495371] block after:content-[''] after:relative before:w-16 after:h-1 after:bg-[#495371] after:block after:mt-2 after:float-right after:ml-auto before:content-[''] before:relative after:w-14 before:h-1 before:mt-3 before:float-right before:ml-auto before:bg-[#495371] before:block self-end before:self-end after:self-end before:rounded-full after:rounded-full"></span>
+          <span className="w-10 h-[0.2rem] lg:w-14 lg:h-1  rounded-full  bg-[#495371] block after:content-[''] after:relative before:w-12 before:h-[0.2rem] before:lg:w-16 before:lg:h-1 after:w-10 after:h-[0.2rem] after:lg:w-14 after:lg:h-1 after:bg-[#495371] after:block after:mt-2 after:float-right after:ml-auto before:content-[''] before:relative   before:mt-3 before:float-right before:ml-auto before:bg-[#495371] before:block self-end before:self-end after:self-end before:rounded-full after:rounded-full"></span>
         </div>
+        <div
+          className={`${
+            !backdrop ? "left-[-90rem]" : "left-0"
+          } w-full h-screen absolute top-[4.5rem] z-30 bg-[#495371]/80  transition-all duration-500 ease-in`}
+        ></div>
         <ul
           className={`${
-            !open ? "left-[-17rem]" : "left-0"
-          } bg-[#495371] flex flex-col gap-16 p-10 h-screen absolute  top-[4.5rem] font-semibold text-[#FDDB93] transition-all duration-500 ease-in w-[20%]`}
+            !open ? "left-[-24rem]" : "left-0"
+          } bg-[#495371] flex flex-col gap-16 p-10 h-screen absolute  top-[4.5rem] font-semibold text-[#FDDB93] transition-all duration-500 ease-in z-30 w-[60%] lg:w-[20%]`}
         >
           <li>
             <Link to="/" className="flex gap-2 items-center">
@@ -138,7 +149,9 @@ const Navbar = () => {
         </ul>
         <div className="flex items-center pr-6 gap-2 lg:pr-8">
           <img src={logo} alt="" className="w-4 h-5 lg:w-6 lg:h-8" />
-          <h3 className="font-bold text-[#495371] text-sm lg:text-xl">ChemsCrystals</h3>
+          <h3 className="font-bold text-[#495371] text-sm lg:text-xl">
+            ChemsCrystals
+          </h3>
         </div>
       </nav>
     </div>
