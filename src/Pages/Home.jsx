@@ -2,6 +2,7 @@ import React from "react";
 import { Hero } from "../Component";
 import hero1 from "../Component/image/hero1.jpg";
 import hero3 from "../Component/image/hero3.jpg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -47,15 +48,21 @@ const Home = () => {
           <img src={hero3} alt="" className="w-[80%] m-auto" />
         </div>
       </section>
-      <section className="mx-8 h-60 bg-[url(./image/secttion2.jpg)] bg-[#74959A]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
-        <h1 className="text-center text-2xl lg:text-3xl">
+      <section className="p-8 mx-8 h-[17rem] bg-[url(./image/secttion2.jpg)] text-center text-[#FDDB93] bg-[#74959A]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
+        <h1 className=" text-2xl lg:text-3xl font-bold pb-4">
           Student Practice Center
         </h1>
-        <p className="text-lg lg:text-xl leading-8">
-          ed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae.totam{" "}
+        <p className="text-lg lg:text-xl leading-8 pb-8">
+          ed ut perspiciatis unde omnis iste natus <br /> error sit voluptatem
+          accusantium doloremque <br /> laudantium, totam rem aperiam, eaque
+          ipsa quae <br />
+          ab illo inventore veritatis et quasi architecto beatae.totam.
         </p>
+        <Link to="/" className="m-auto">
+          <button className="rounded-full px-16 py-2 bg-[#495371] font-bold m-auto block">
+            Get in touch
+          </button>
+        </Link>
       </section>
     </div>
   );
