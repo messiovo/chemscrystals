@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <>
-      <div className="bg-[#495371] pb-8 flex  items-center flex-col-reverse  lg:flex-row lg:p-20 ">
+      <div className="bg-[#495371] pb-8 flex  items-center flex-col-reverse  lg:flex-row lg:p-20">
         <div className="lg:w-2/4 text-[#FDDB93] px-4 lg:px-14 pt-10 lg:pt-0">
           <h1 className="font-bold text-2xl lg:text-4xl md:text-3xl pb-4 text-center">
             Let’s improve the coding <br /> and mental skill of your <br /> ward
@@ -19,7 +19,7 @@ const Hero = () => {
             Create genius in mathematics with speed and accuracy.
           </p>
           <Link to="/">
-            <button className="rounded-full px-16 py-2 bg-[#74959A] font-bold m-auto block hover:scale-110 transition-all duration-300 ease-in">
+            <button className="rounded-full text-[#495371] px-16 py-2 bg-[#98B4AA] font-bold m-auto block hover:scale-110 transition-all duration-300 ease-in">
               Get in touch
             </button>
           </Link>

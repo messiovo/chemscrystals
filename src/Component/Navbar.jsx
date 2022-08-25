@@ -28,12 +28,12 @@ const Navbar = () => {
         <div
           className={`${
             !backdrop ? "left-[-90rem]" : "left-0"
-          } w-full h-screen absolute top-[4.5rem] z-30 bg-[#495371]/80  transition-all duration-500 ease-in`}
+          } w-full h-full absolute top-[4.5rem] z-30 bg-[#495371]/80 overflow-hidden  transition-all duration-500 ease-in`}
         ></div>
         <ul
           className={`${
             !open ? "left-[-24rem]" : "left-0"
-          } bg-[#495371] flex flex-col gap-16 p-10 h-screen absolute  top-[4.5rem] font-semibold text-[#FDDB93] transition-all duration-500 ease-in z-30 w-[60%] lg:w-[20%]`}
+          } bg-[#495371] flex flex-col gap-16 p-10 h-full absolute  top-[4.5rem] font-semibold text-[#FDDB93] transition-all duration-500 ease-in z-30 w-[60%] lg:w-[20%] overflow-hidden`}
         >
           <li>
             <Link to="/" className="flex gap-2 items-center">

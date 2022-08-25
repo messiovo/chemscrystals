@@ -3,8 +3,36 @@ import { Hero } from "../Component";
 import hero1 from "../Component/image/hero1.jpg";
 import hero3 from "../Component/image/hero3.jpg";
 import { Link } from "react-router-dom";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 const Home = () => {
+  const card = [
+    {
+      id: 1,
+      text: " quasi architecto beatae.totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beataequasi architecto beatae.totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae ",
+      position: "School Admin,",
+      school: "Manger School",
+    },
+    {
+      id: 2,
+      text: " quasi architecto beatae.totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beataequasi architecto beatae.totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae ",
+      position: "School Admin,",
+      school: "Manger School",
+    },
+    {
+      id: 3,
+      text: " quasi architecto beatae.totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beataequasi architecto beatae.totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae ",
+      position: "School Admin,",
+      school: "Manger School",
+    },
+    {
+      id: 4,
+      text: " quasi architecto beatae.totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beataequasi architecto beatae.totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae ",
+      position: "School Admin,",
+      school: "Manger School",
+    },
+  ];
   return (
     <div>
       <Hero />
@@ -14,8 +42,8 @@ const Home = () => {
           organize kids coding and <br /> abacus mental math for your pupils.
         </p>
       </div>
-      
-      <section className="flex flex-col-reverse items-center justify-center lg:flex-row bg-[#98B4AA] py-10 ">
+
+      <section className="flex flex-col-reverse items-center justify-center lg:flex-row bg-[#74959A] py-10 ">
         <div className="lg:w-2/4 text-center text-[#495371] p-6">
           <h2 className="text-2xl lg:text-3xl font-bold pb-4">Kids Coding</h2>
           <p className="text-lg lg:text-xl leading-8">
@@ -45,7 +73,7 @@ const Home = () => {
             data-aos="fade-right"
           />
         </div>
-        <div className="lg:w-2/4 text-center text-[#FDDB93] p-6">
+        <div className="lg:w-2/4 text-center text-[#495371] p-6">
           <h2 className="text-2xl lg:text-3xl font-bold pb-4">
             Abacus Mental Math
           </h2>
@@ -59,11 +87,11 @@ const Home = () => {
           </p>
         </div>
       </section>
-      <section className="p-10 h-[25rem] bg-[url(./image/secttion2.jpg)] flex flex-col items-center justify-center  bg-[#74959A]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
-        <h1 className=" text-2xl lg:text-3xl font-bold pb-4 text-[#495371]">
+      <section className="p-10 h-[25rem] bg-[url(./image/secttion3.png)] flex flex-col items-center justify-center  bg-[black]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
+        <h1 className=" text-2xl lg:text-3xl font-bold pb-4 text-[#FDDB93]">
           Student Practice Center
         </h1>
-        <p className="text-lg lg:text-xl leading-8 mb-5 px-4 text-[#495371]">
+        <p className="text-lg lg:text-xl leading-8 mb-5 px-4 text-[#FDDB93]">
           ed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae.totam.
@@ -71,6 +99,90 @@ const Home = () => {
         <Link to="/">
           <button className="rounded-full px-16 py-2 bg-[#495371] font-bold m-auto block text-[#FDDB93]">
             Get in touch
+          </button>
+        </Link>
+      </section>
+      <section className="bg-[#74959A] px-10 py-10">
+        <h2 className="text-2xl lg:text-3xl font-bold py-8 text-[#495371] text-center ">
+          What Client Say About Us
+        </h2>
+        <Carousel
+          arrows
+          autoPlay
+          autoPlaySpeed={2000}
+          centerMode={false}
+          className="px-0 md:px-9 lg:pr-10 lg:pl-16"
+          containerClass="container-with-dots"
+          dotListClass=""
+          draggable
+          focusOnSelect={false}
+          infinite
+          keyBoardControl
+          pauseOnHover
+          renderArrowsWhenDisabled={false}
+          renderButtonGroupOutside={false}
+          renderDotsOutside={false}
+          responsive={{
+            desktop: {
+              breakpoint: {
+                max: 3000,
+                min: 1024,
+              },
+              items: 3,
+
+              slidesToSlide: 3,
+            },
+            mobile: {
+              breakpoint: {
+                max: 464,
+                min: 0,
+              },
+              items: 1,
+
+              slidesToSlide: 1,
+            },
+            tablet: {
+              breakpoint: {
+                max: 1024,
+                min: 464,
+              },
+              items: 2,
+
+              slidesToSlide: 2,
+            },
+          }}
+          rewind={false}
+          rewindWithAnimation={false}
+          rtl={false}
+          shouldResetAutoplay
+          showDots={false}
+          sliderClass=""
+          swipeable
+        >
+          {card.map((items) => (
+            <div
+              key={items.id}
+              className="w-[18rem] h-[20rem] bg-[#98B4AA] text-[#495371] p-6 flex flex-col gap-2 shadow-md shadow-[#495371]"
+            >
+              <p className="">{items.text}</p>
+              <span className="text-end  font-bold">
+                <p>{items.position}</p>
+                <p>{items.school}</p>
+              </span>
+            </div>
+          ))}
+        </Carousel>
+      </section>
+      <section className="p-10 h-[25rem] bg-[url(./image/section3.png)] flex flex-col items-center justify-center  bg-[black]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
+        <span className=" text-2xl lg:text-3xl font-bold pb-4 text-[#FDDB93]">
+        Try ChemsCrystals at your School! 
+        </span>
+        <span className="text-lg lg:text-xl leading-8 mb-5 px-4 text-[#FDDB93]">
+        It will only take a minute
+        </span>
+        <Link to="/">
+          <button className="rounded-full px-16 py-2 bg-[#495371] font-bold m-auto block text-[#FDDB93]">
+            Request for demo class
           </button>
         </Link>
       </section>
