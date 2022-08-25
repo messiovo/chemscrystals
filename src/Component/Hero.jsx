@@ -19,7 +19,7 @@ const Hero = () => {
             Create genius in mathematics with speed and accuracy.
           </p>
           <Link to="/">
-            <button className="rounded-full text-[#495371] px-16 py-2 bg-[#98B4AA] font-bold m-auto block hover:scale-110 transition-all duration-300 ease-in">
+            <button className="rounded-full text-[#495371] px-16 py-2 bg-[#98B4AA] font-bold m-auto block hover:scale-110 transition-all duration-300 ease-in text-sm lg:text-lg">
               Get in touch
             </button>
           </Link>

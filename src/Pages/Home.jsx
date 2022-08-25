@@ -91,13 +91,13 @@ const Home = () => {
         <h1 className=" text-2xl lg:text-3xl font-bold pb-4 text-[#FDDB93]">
           Student Practice Center
         </h1>
-        <p className="text-lg lg:text-xl leading-8 mb-5 px-4 text-[#FDDB93]">
+        <p className="text-lg lg:text-xl leading-8  px-4 text-[#FDDB93]">
           ed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae.totam.
         </p>
         <Link to="/">
-          <button className="rounded-full px-16 py-2 bg-[#495371] font-bold m-auto block text-[#FDDB93]">
+          <button className="rounded-full px-16 py-2 mt-14 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-sm lg:text-lg hover:scale-110 transition-all duration-300 ease-in ">
             Get in touch
           </button>
         </Link>
@@ -177,11 +177,11 @@ const Home = () => {
         <span className=" text-2xl lg:text-3xl font-bold pb-4 text-[#FDDB93]">
         Try ChemsCrystals at your School! 
         </span>
-        <span className="text-lg lg:text-xl leading-8 mb-5 px-4 text-[#FDDB93]">
+        <span className="text-lg lg:text-xl leading-8 px-4 text-[#FDDB93]">
         It will only take a minute
         </span>
         <Link to="/">
-          <button className="rounded-full px-16 py-2 bg-[#495371] font-bold m-auto block text-[#FDDB93]">
+          <button className="rounded-full px-16 py-2 mt-14 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-sm lg:text-lg hover:scale-110 transition-all duration-300 ease-in ">
             Request for demo class
           </button>
         </Link>
