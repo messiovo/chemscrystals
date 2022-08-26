@@ -21,7 +21,7 @@ const Navbar = () => {
           className="pl-7 cursor-pointer lg:pl-8"
           onClick={navHandler}
           onBlur={blurBody}
-          tabIndex={24}
+          tabIndex={40}
         >
           <span className="w-10 h-[0.2rem] lg:w-14 lg:h-1  rounded-full  bg-[#495371] block after:content-[''] after:relative before:w-12 before:h-[0.2rem] before:lg:w-16 before:lg:h-1 after:w-10 after:h-[0.2rem] after:lg:w-14 after:lg:h-1 after:bg-[#495371] after:block after:mt-2 after:float-right after:ml-auto before:content-[''] before:relative   before:mt-3 before:float-right before:ml-auto before:bg-[#495371] before:block self-end before:self-end after:self-end before:rounded-full after:rounded-full"></span>
         </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
         <ul
           className={`${
             !open ? "left-[-24rem]" : "left-0"
-          } bg-[#495371] flex flex-col gap-16 p-10 h-full absolute  top-[4.5rem] font-semibold text-[#FDDB93] transition-all duration-500 ease-in z-30 w-[60%] lg:w-[20%] overflow-hidden`}
+          } bg-[#495371] flex flex-col gap-16 px-12 pt-10 h-full absolute  top-[4.5rem] font-semibold text-[#FDDB93] transition-all duration-500 ease-in z-30  overflow-hidden`}
         >
           <li>
             <Link to="/" className="flex gap-2 items-center">
