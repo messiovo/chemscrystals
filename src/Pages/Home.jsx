@@ -89,7 +89,7 @@ const Home = () => {
       </section>
       <section className="p-10 h-[25rem] bg-[url(./image/secttion3.png)] flex flex-col items-center justify-center  bg-[black]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
         <h1 className=" text-2xl lg:text-3xl font-bold pb-4 text-[#FDDB93]">
-          Student Practice Center
+          Student Learning Platform
         </h1>
         <p className="text-lg lg:text-xl leading-8  px-4 text-[#FDDB93]">
           ed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -98,7 +98,7 @@ const Home = () => {
         </p>
         <Link to="/">
           <button className="rounded-full px-16 py-2 mt-10 mb-6 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-sm lg:text-lg hover:scale-110 transition-all duration-300 ease-in ">
-            Get in touch
+            Get App
           </button>
         </Link>
       </section>
