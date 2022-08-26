@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="bg-[#495371]  ">
-      <div className=" pt-10 text-lg text-[#FDDB93] flex gap-20 justify-center items-center">
+      <div className=" pt-10 text-sm lg:text-lg text-[#FDDB93] font-semibold flex gap-20 justify-center items-center">
         <Link to="/">
           <p>About us</p>
         </Link>
@@ -73,7 +73,7 @@ const Footer = () => {
           </span>
         </Link>
       </div>
-      <div className="text-[#FDDB93] text-center px-5">
+      <div className="text-[#FDDB93] text-center px-5 text-sm lg:text-lg">
         <p>174, New Lagos Road, Ugbowo, Benin-city, Nigeria</p>
         <p>+2347032096957, +2348038835457</p>
         <p>chemscrystals@gmail.com</p>
