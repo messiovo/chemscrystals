@@ -5,12 +5,9 @@ const Footer = () => {
   return (
     <div className="bg-[#495371]  ">
       <div className=" pt-10 text-sm lg:text-lg text-[#FDDB93] font-semibold flex gap-20 justify-center items-center">
-        <Link to="/">
-          <p>About us</p>
-        </Link>
-        <Link to="/">
-          <p>Contact us</p>
-        </Link>
+        <p>
+          For more enquiry, <Link to="/">contact us</Link>
+        </p>
       </div>
       <div className="flex justify-center items-center gap-16 my-12 px-5">
         <Link to="/">
@@ -78,7 +75,9 @@ const Footer = () => {
         <p>+2347032096957, +2348038835457</p>
         <p>chemscrystals@gmail.com</p>
       </div>
-      <p className="text-end text-xs text-[#FDDB93] pt-10 px-4">Powered by ChemsCrystals</p>
+      <p className="text-end text-xs text-[#FDDB93] pt-10 px-4">
+        Powered by ChemsCrystals
+      </p>
     </div>
   );
 };
