@@ -17,13 +17,13 @@ function App() {
     Aos.refresh();
   }, []);
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
       <Footer/>
-    </>
+    </div>
   );
 }
 
