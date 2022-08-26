@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-[#495371]">
+    <div className="bg-[#495371] mx-8 mb-8">
       <div className=" pt-10 text-lg text-[#FDDB93] flex gap-20 justify-center items-center">
         <Link to="/">
           <p>About us</p>

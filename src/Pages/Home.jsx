@@ -43,7 +43,7 @@ const Home = () => {
         </p>
       </div>
 
-      <section className="flex flex-col-reverse items-center justify-center lg:flex-row bg-[#74959A] py-10 ">
+      <section className="mx-8 flex flex-col-reverse items-center justify-center lg:flex-row bg-[#74959A] py-10 ">
         <div className="lg:w-2/4 text-center text-[#495371] p-6">
           <h2 className="text-2xl lg:text-3xl font-bold pb-4">Kids Coding</h2>
           <p className="text-lg lg:text-xl leading-8">
@@ -64,7 +64,7 @@ const Home = () => {
           />
         </div>
       </section>
-      <section className="flex flex-col items-center justify-center lg:flex-row bg-[#74959A] py-10 ">
+      <section className=" mx-8 flex flex-col items-center justify-center lg:flex-row bg-[#74959A] py-10 ">
         <div className="lg:w-2/4">
           <img
             src={hero1}
@@ -87,7 +87,7 @@ const Home = () => {
           </p>
         </div>
       </section>
-      <section className="p-10 h-[25rem] bg-[url(./image/secttion3.png)] flex flex-col items-center justify-center  bg-[black]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
+      <section className="mx-8 p-10 h-[25rem] bg-[url(./image/secttion3.png)] flex flex-col items-center justify-center  bg-[black]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
         <h1 className=" text-2xl lg:text-3xl font-bold pb-4 text-[#FDDB93]">
           Student Learning Platform
         </h1>
@@ -102,7 +102,7 @@ const Home = () => {
           </button>
         </Link>
       </section>
-      <section className="bg-[#74959A] px-10 py-10 relative">
+      <section className="mx-8 bg-[#74959A] px-10 py-10 relative">
         <h2 className="text-2xl lg:text-3xl font-bold pt-8 text-[#495371] text-center ">
           What Client Say About Us
         </h2>
@@ -173,7 +173,7 @@ const Home = () => {
           ))}
         </Carousel>
       </section>
-      <section className="p-10 h-[25rem] bg-[url(./image/section3.png)] flex flex-col items-center justify-center  bg-[black]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
+      <section className="mx-8 p-10 h-[25rem] bg-[url(./image/section3.png)] flex flex-col items-center justify-center  bg-[black]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
         <span className=" text-2xl lg:text-3xl font-bold pb-4 text-[#FDDB93]">
         Try ChemsCrystals at your School! 
         </span>
