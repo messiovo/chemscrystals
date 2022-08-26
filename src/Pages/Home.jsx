@@ -36,14 +36,14 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <div className="py-10 mx-8">
+      <div className="py-10 px-4">
         <p className="text-[#495371] text-center text-2xl lg:text-3xl font-bold">
           we work with schools to <br />
           organize kids coding and <br /> abacus mental math for your pupils.
         </p>
       </div>
 
-      <section className="mx-8 flex flex-col-reverse items-center justify-center lg:flex-row bg-[#74959A] py-10 ">
+      <section className=" flex flex-col-reverse items-center justify-center lg:flex-row bg-[#74959A] py-10 ">
         <div className="lg:w-2/4 text-center text-[#495371] p-6">
           <h2 className="text-2xl lg:text-3xl font-bold pb-4">Kids Coding</h2>
           <p className="text-lg lg:text-xl leading-8">
@@ -64,7 +64,7 @@ const Home = () => {
           />
         </div>
       </section>
-      <section className=" mx-8 flex flex-col items-center justify-center lg:flex-row bg-[#74959A] py-10 ">
+      <section className="  flex flex-col items-center justify-center lg:flex-row bg-[#74959A] py-10 ">
         <div className="lg:w-2/4">
           <img
             src={hero1}
@@ -87,8 +87,8 @@ const Home = () => {
           </p>
         </div>
       </section>
-      <section className="mx-8 p-10 h-[25rem] bg-[url(./image/secttion3.png)] flex flex-col items-center justify-center  bg-[black]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
-        <h1 className=" text-2xl lg:text-3xl font-bold pb-4 text-[#FDDB93]">
+      <section className=" p-10  bg-[url(./image/secttion3.png)] flex flex-col items-center justify-center  bg-[black]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
+        <h1 className=" text-2xl lg:text-3xl font-bold pb-4 text-[#FDDB93] text-center">
           Student Learning Platform
         </h1>
         <p className="text-lg lg:text-xl leading-8  px-4 text-[#FDDB93]">
@@ -97,21 +97,20 @@ const Home = () => {
           ab illo inventore veritatis et quasi architecto beatae.totam.
         </p>
         <Link to="/">
-          <button className="rounded-full px-16 py-2 mt-10 mb-6 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-sm lg:text-lg hover:scale-110 transition-all duration-300 ease-in ">
+          <button className="rounded-full px-16 py-2 mt-10 mb-6 bg-[#495371] font-bold m-auto block text-[#FDDB93]  text-sm lg:text-lg hover:scale-110 transition-all duration-300 ease-in ">
             Get App
           </button>
         </Link>
       </section>
-      <section className="mx-8 bg-[#74959A] px-10 py-10 relative">
+      <section className=" bg-[#74959A] px-16 py-10 relative">
         <h2 className="text-2xl lg:text-3xl font-bold pt-8 text-[#495371] text-center ">
           What Client Say About Us
         </h2>
         <Carousel
-          
           autoPlay
           autoPlaySpeed={2000}
           centerMode={false}
-          className="px-2 md:px-9 lg:pr-10 lg:pl-16 absolute top-[4rem]"
+          className=" absolute top-[4rem]"
           containerClass="container-with-dots"
           dotListClass=""
           draggable
@@ -162,7 +161,7 @@ const Home = () => {
           {card.map((items) => (
             <div
               key={items.id}
-              className="w-[18rem] h-[20rem] bg-[#98B4AA] text-[#495371] p-7 flex flex-col gap-4 shadow-md shadow-[#495371]"
+              className=" bg-[#98B4AA] text-[#495371] p-7 flex flex-col gap-4 shadow-md shadow-[#495371]"
             >
               <p className="">{items.text}</p>
               <span className="text-end  font-bold">
@@ -173,15 +172,15 @@ const Home = () => {
           ))}
         </Carousel>
       </section>
-      <section className="mx-8 p-10 h-[25rem] bg-[url(./image/section3.png)] flex flex-col items-center justify-center  bg-[black]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
+      <section className=" p-10 h-[25rem] bg-[url(./image/section3.png)] flex flex-col items-center justify-center  bg-[black]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
         <span className=" text-2xl lg:text-3xl font-bold pb-4 text-[#FDDB93]">
-        Try ChemsCrystals at your School! 
+          Try ChemsCrystals at your School!
         </span>
         <span className="text-lg lg:text-xl leading-8 px-4 text-[#FDDB93]">
-        It will only take a minute
+          It will only take a minute
         </span>
         <Link to="/">
-          <button className="rounded-full px-16 py-2 mt-10 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-sm lg:text-lg hover:scale-110 transition-all duration-300 ease-in ">
+          <button className="rounded-full px-16 py-2 mt-10 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-xs md:text-sm lg:text-lg hover:scale-110 transition-all duration-300 ease-in ">
             Request a demo class
           </button>
         </Link>
