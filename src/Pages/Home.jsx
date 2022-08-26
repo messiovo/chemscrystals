@@ -37,16 +37,16 @@ const Home = () => {
     <div>
       <Hero />
       <div className="py-10 px-4">
-        <p className="text-[#495371] text-center text-2xl lg:text-3xl font-bold">
+        <p className="text-[#495371] text-center text-xl lg:text-2xl font-bold">
           we work with schools to <br />
           organize kids coding and <br /> abacus mental math for your pupils.
         </p>
       </div>
 
       <section className=" flex flex-col-reverse items-center justify-center lg:flex-row bg-[#74959A] py-10 ">
-        <div className="lg:w-2/4 text-center text-[#495371] p-6">
-          <h2 className="text-2xl lg:text-3xl font-bold pb-4">Kids Coding</h2>
-          <p className="text-lg lg:text-xl leading-8">
+        <div className="lg:w-2/4 text-center text-[#495371] py-2 px-6">
+          <h2 className="text-lg lg:text-xl font-bold py-4">Kids Coding</h2>
+          <p className="text-sm lg:text-lg leading-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -73,11 +73,11 @@ const Home = () => {
             data-aos="fade-right"
           />
         </div>
-        <div className="lg:w-2/4 text-center text-[#495371] p-6">
-          <h2 className="text-2xl lg:text-3xl font-bold pb-4">
+        <div className="lg:w-2/4 text-center text-[#495371] py-2 px-6">
+          <h2 className="text-lg lg:text-xl font-bold py-4">
             Abacus Mental Math
           </h2>
-          <p className="text-lg lg:text-xl leading-8">
+          <p className="text-sm lg:text-lg leading-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -88,31 +88,30 @@ const Home = () => {
         </div>
       </section>
       <section className=" p-10  bg-[url(./image/secttion3.png)] flex flex-col items-center justify-center  bg-[black]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
-        <h1 className=" text-2xl lg:text-3xl font-bold pb-4 text-[#FDDB93] text-center">
+        <h1 className=" text-lg lg:text-xl font-bold pb-4 text-[#FDDB93] text-center">
           Student Learning Platform
         </h1>
-        <p className="text-lg lg:text-xl leading-8  px-4 text-[#FDDB93]">
+        <p className="text-sm lg:text-lg leading-8  px-4 text-[#FDDB93] text-center">
           ed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae.totam.
         </p>
         <Link to="/">
-          <button className="rounded-full px-16 py-2 mt-10 mb-6 bg-[#495371] font-bold m-auto block text-[#FDDB93]  text-sm lg:text-lg hover:scale-110 transition-all duration-300 ease-in ">
+          <button className="rounded-full px-16 py-2 mt-10 mb-6 bg-[#495371] font-bold m-auto block text-[#FDDB93]  text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in ">
             Get App
           </button>
         </Link>
       </section>
-      <section className=" bg-[#74959A] px-16 py-10 relative">
-        <h2 className="text-2xl lg:text-3xl font-bold pt-8 text-[#495371] text-center ">
+      <section className=" bg-[#74959A] px-16  relative">
+        <h2 className="text-lg lg:text-xl font-bold pt-8 text-[#495371] text-center ">
           What Client Say About Us
         </h2>
         <Carousel
           autoPlay
           autoPlaySpeed={2000}
           centerMode={false}
-          className=" absolute top-[4rem]"
+          className=" absolute top-[2rem]"
           containerClass="container-with-dots"
-          dotListClass=""
           draggable
           focusOnSelect={false}
           infinite
@@ -161,7 +160,7 @@ const Home = () => {
           {card.map((items) => (
             <div
               key={items.id}
-              className=" bg-[#98B4AA] text-[#495371] p-7 flex flex-col gap-4 shadow-md shadow-[#495371]"
+              className=" bg-[#98B4AA] rounded-2xl text-sm lg:text-lg text-[#495371] p-7 mx-0 md:mx-4 lg:mx-4 flex flex-col gap-3 shadow-md shadow-[#495371]"
             >
               <p className="">{items.text}</p>
               <span className="text-end  font-bold">
@@ -173,14 +172,14 @@ const Home = () => {
         </Carousel>
       </section>
       <section className=" p-10 h-[25rem] bg-[url(./image/section3.png)] flex flex-col items-center justify-center  bg-[black]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
-        <span className=" text-2xl lg:text-3xl font-bold pb-4 text-[#FDDB93]">
+        <span className=" text-lg lg:text-xl font-bold pb-4 text-[#FDDB93]">
           Try ChemsCrystals at your School!
         </span>
-        <span className="text-lg lg:text-xl leading-8 px-4 text-[#FDDB93]">
+        <span className="text-sm lg:text-lg leading-8 px-4 text-[#FDDB93]">
           It will only take a minute
         </span>
         <Link to="/">
-          <button className="rounded-full px-16 py-2 mt-10 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-xs md:text-sm lg:text-lg hover:scale-110 transition-all duration-300 ease-in ">
+          <button className="rounded-full px-16 py-2 mt-10 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in ">
             Request a demo class
           </button>
         </Link>
