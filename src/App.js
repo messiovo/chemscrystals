@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom/index";
-import { Navbar } from "./Component";
+import { Footer, Navbar } from "./Component";
 import { Home } from "./Pages";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -22,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
+      <Footer/>
     </>
   );
 }

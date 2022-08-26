@@ -102,8 +102,8 @@ const Home = () => {
           </button>
         </Link>
       </section>
-      <section className="bg-[#74959A] px-10 py-10">
-        <h2 className="text-2xl lg:text-3xl font-bold py-8 text-[#495371] text-center ">
+      <section className="bg-[#74959A] px-10 py-10 relative">
+        <h2 className="text-2xl lg:text-3xl font-bold pt-8 text-[#495371] text-center ">
           What Client Say About Us
         </h2>
         <Carousel
@@ -111,7 +111,7 @@ const Home = () => {
           autoPlay
           autoPlaySpeed={2000}
           centerMode={false}
-          className="px-0 md:px-9 lg:pr-10 lg:pl-16"
+          className="px-2 md:px-9 lg:pr-10 lg:pl-16 absolute top-[4rem]"
           containerClass="container-with-dots"
           dotListClass=""
           draggable
@@ -162,7 +162,7 @@ const Home = () => {
           {card.map((items) => (
             <div
               key={items.id}
-              className="w-[18rem] h-[20rem] bg-[#98B4AA] text-[#495371] p-6 flex flex-col gap-2 shadow-md shadow-[#495371]"
+              className="w-[18rem] h-[20rem] bg-[#98B4AA] text-[#495371] p-7 flex flex-col gap-4 shadow-md shadow-[#495371]"
             >
               <p className="">{items.text}</p>
               <span className="text-end  font-bold">
@@ -182,7 +182,7 @@ const Home = () => {
         </span>
         <Link to="/">
           <button className="rounded-full px-16 py-2 mt-14 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-sm lg:text-lg hover:scale-110 transition-all duration-300 ease-in ">
-            Request for demo class
+            Request a demo class
           </button>
         </Link>
       </section>
