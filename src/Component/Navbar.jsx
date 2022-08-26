@@ -55,7 +55,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/" className="flex gap-2 items-center">
+            <Link to="/about" className="flex gap-2 items-center">
               <span>
                 <svg
                   width="20"
