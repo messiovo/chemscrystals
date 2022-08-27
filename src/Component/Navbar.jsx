@@ -28,7 +28,7 @@ const Navbar = () => {
         <div
           className={`${
             !backdrop ? "left-[-90rem]" : "left-0"
-          } w-full h-full absolute top-[4.7rem] lg:top-[4.5rem] z-30 bg-[#495371]/90 transition-all duration-500 ease-in`}
+          } w-full h-full fixed top-[4.7rem] lg:top-[4.5rem] z-30 bg-[#495371]/90 transition-all duration-500 ease-in`}
         ></div>
         <ul
           className={`${
