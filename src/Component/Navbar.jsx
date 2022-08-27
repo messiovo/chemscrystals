@@ -33,7 +33,7 @@ const Navbar = () => {
         <ul
           className={`${
             !open ? "left-[-24rem]" : "left-0"
-          } bg-[#495371] flex flex-col gap-16 px-12 pt-14 h-full absolute top-[4.7rem] lg:top-[4.5rem] font-semibold text-[#FDDB93] transition-all duration-500 ease-in z-30  overflow-hidden`}
+          } bg-[#495371] flex flex-col gap-16 px-12 pt-14 h-full fixed top-[4.7rem] lg:top-[4.5rem] font-semibold text-[#FDDB93] transition-all duration-500 ease-in z-30  overflow-hidden`}
         >
           <li>
             <Link to="/" className="flex gap-2 items-center">
