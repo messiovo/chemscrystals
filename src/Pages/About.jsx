@@ -1,6 +1,7 @@
 import React from "react";
 import coding from "../Component/image/coding.jpg";
 import strength from "../Component/image/strength.png";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -19,7 +20,7 @@ const About = () => {
         <img
           src={coding}
           alt="chemscrystals coding class"
-          className="w-[50%] m-auto"
+          className="w-[80%] lg:w-[50%] m-auto"
           data-aos="fade-left"
         />
       </section>
@@ -120,7 +121,7 @@ const About = () => {
             <img
               src={strength}
               alt="chemscrystals ourStrngth"
-              className="w-[50%] m-auto"
+              className="w-[80%] lg:w-[50%] m-auto"
               data-aos="fade-right"
             />
           </div>
@@ -137,6 +138,14 @@ const About = () => {
       <section className="px-12 text-[#495371] mb-10 mt-20">
         <div className=" font-bold text-xl lg:text-3xl md:text-2xl py-4  text-center">
           <h1>Recommend Chemscrystals to a school today</h1>
+          <Link to="/contact">
+            <button
+              className="rounded-full px-[3rem] py-2 mt-10 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in "
+              data-aos="fade-up"
+            >
+              Request a demo class
+            </button>
+          </Link>
         </div>
       </section>
     </>

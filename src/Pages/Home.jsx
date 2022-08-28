@@ -97,7 +97,10 @@ const Home = () => {
           ab illo inventore veritatis et quasi architecto beatae.totam.
         </p>
         <Link to="/">
-          <button className="rounded-full px-16 py-2 mt-10 mb-6 bg-[#495371] font-bold m-auto block text-[#FDDB93]  text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in ">
+          <button
+            className="rounded-full px-16 py-2 mt-10 mb-6 bg-[#495371] font-bold m-auto block text-[#FDDB93]  text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in "
+            data-aos="fade-up"
+          >
             Get App
           </button>
         </Link>
@@ -178,8 +181,11 @@ const Home = () => {
         <span className="text-sm lg:text-lg leading-8 px-4 text-[#FDDB93]">
           It will only take a minute
         </span>
-        <Link to="/">
-          <button className="rounded-full px-[3rem] py-2 mt-10 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in ">
+        <Link to="/contact">
+          <button
+            className="rounded-full px-[3rem] py-2 mt-10 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in "
+            data-aos="fade-up"
+          >
             Request a demo class
           </button>
         </Link>
