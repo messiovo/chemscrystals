@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="bg-[#495371]  ">
       <div className=" pt-10 text-sm lg:text-lg text-[#FDDB93] font-semibold flex gap-20 justify-center items-center">
         <p>
-          For more enquiry, <Link to="/">contact us</Link>
+          For more enquiry, <Link to="/contact">contact us</Link>
         </p>
       </div>
       <div className="flex justify-center items-center gap-16 my-12 px-5">
@@ -71,7 +71,7 @@ const Footer = () => {
         </Link>
       </div>
       <div className="text-[#FDDB93] text-center px-5 text-sm lg:text-lg">
-        <p>174, New Lagos Road, Ugbowo, Benin-city, Nigeria</p>
+        <p>174, Ugbowo Lagos Road, Benin-city, Nigeria</p>
         <p>+2347032096957, +2348038835457</p>
         <p>chemscrystals@gmail.com</p>
       </div>
