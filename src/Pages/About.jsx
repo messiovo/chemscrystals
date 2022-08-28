@@ -77,8 +77,7 @@ const About = () => {
             </span>
             <p className="text-sm lg:text-lg leading-8 text-[#FDDB93]">
               We endeavour to create value for our client to meet their
-              expectations. We understand that our client’s success is what
-              propel us.
+              expectations. We understand that our client’s success is also our success.
             </p>
           </div>
         </div>
