@@ -20,6 +20,7 @@ const About = () => {
           src={coding}
           alt="chemscrystals coding class"
           className="w-[50%] m-auto"
+          data-aos="fade-left"
         />
       </section>
       <section className=" bg-[#495371] mt-20 pb-20 px-12">
@@ -77,7 +78,8 @@ const About = () => {
             </span>
             <p className="text-sm lg:text-lg leading-8 text-[#FDDB93]">
               We endeavour to create value for our client to meet their
-              expectations. We understand that our client’s success is also our success.
+              expectations. We understand that our client’s success is also our
+              success.
             </p>
           </div>
         </div>
@@ -115,7 +117,12 @@ const About = () => {
         </h2>
         <div className="flex flex-col lg:flex-row gap-8 items-center justify-center">
           <div className="w-full lg:w-2/4">
-            <img src={strength} alt="chemscrystals ourStrngth" className="w-[50%] m-auto"/>
+            <img
+              src={strength}
+              alt="chemscrystals ourStrngth"
+              className="w-[50%] m-auto"
+              data-aos="fade-right"
+            />
           </div>
           <div className="w-full lg:w-2/4">
             <p className="text-sm lg:text-lg leading-8 text-[#495371]">
@@ -129,9 +136,7 @@ const About = () => {
       </section>
       <section className="px-12 text-[#495371] mb-10 mt-20">
         <div className=" font-bold text-xl lg:text-3xl md:text-2xl py-4  text-center">
-          <h1>
-          Recommend Chemscrystals to a school today 
-          </h1>
+          <h1>Recommend Chemscrystals to a school today</h1>
         </div>
       </section>
     </>
