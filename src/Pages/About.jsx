@@ -4,7 +4,7 @@ import coding from "../Component/image/coding.jpg"
 const About = () => {
   return (
     <>
-    <div className="px-12 text-[#495371] mb-10">
+    <div className="px-12 text-[#495371] mb-10 mt-20">
       <h1 className=" font-bold text-xl lg:text-3xl md:text-2xl py-4  text-center">
         Our aim is to radically improve the cognitive and technological skill of
         children and young adult through our specialized educational program
@@ -16,7 +16,7 @@ const About = () => {
       </p>
       <img src={coding} alt="chemscrystals coding class" className="w-[50%] m-auto" />
     </div>
-    <div className="w-full h-[30rem] bg-[#495371] border-t-2 rounded-t-[50%]">
+    <div className="w-full h-[30rem] bg-[#495371]">
 
     </div>
     </>
