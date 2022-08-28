@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-[#FDDB93]">
+    <div className="bg-[#FDDB93] fixed w-full z-30">
       <nav className="flex  p-5 items-center justify-between">
         <div
           className="pl-7 cursor-pointer lg:pl-8"
