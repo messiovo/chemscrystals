@@ -29,7 +29,7 @@ const About = () => {
             Our Values
           </h2>
           <p className="text-sm lg:text-lg leading-8 text-[#FDDB93] pt-4 text-center">
-            Our values are the propelling force that continually drive us <br />
+            Our values are the propelling force that continually drive us
             towards delivering a better service
           </p>
         </div>
