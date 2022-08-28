@@ -10,7 +10,8 @@ const Contact = () => {
           <div className="w-60 h-60 bg-white m-auto">Map</div>
         </div>
         <div className="w-full lg:w-2/4">
-          <div className="w-60 h-[20rem] bg-[#495371] m-auto relative px-4 shadow-md">
+          <div className="w-60 h-[20rem] bg-[#495371] m-auto relative px-4 shadow-md"
+          data-aos="fade-left">
             <div className="pt-2">
               <span className="flex gap-2 justify-center items-center pb-4">
                 <svg
