@@ -28,7 +28,7 @@ const About = () => {
           <h2 className="text-xl lg:text-2xl font-bold pt-8 text-[#FDDB93] text-center ">
             Our Values
           </h2>
-          <p className="text-sm lg:text-lg leading-8 text-[#FDDB93] px-10 pt-4 text-center">
+          <p className="text-sm lg:text-lg leading-8 text-[#FDDB93] pt-4 text-center">
             Our values are the propelling force that continually drive us <br />
             towards delivering a better service
           </p>
