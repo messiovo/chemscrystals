@@ -1,5 +1,6 @@
 import React from "react";
 import coding from "../Component/image/coding.jpg";
+import strength from "../Component/image/strength.png";
 
 const About = () => {
   return (
@@ -31,7 +32,7 @@ const About = () => {
             towards delivering a better service
           </p>
         </div>
-        <div className="flex flex-col gap-6 lg:gap-16 px-10 mt-10 lg:flex-row">
+        <div className="flex flex-col gap-12 lg:gap-16 px-0 lg:px-10 mt-10 lg:flex-row">
           <div className="w-full lg:w-2/4">
             <span className="flex gap-2 justify-center items-center pb-4 ">
               <svg
@@ -81,7 +82,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-center items-center mt-10 px-10 lg:px-[20rem]">
+        <div className="flex justify-center items-center mt-12 lg:mt-16  lg:px-[20rem]">
           <div>
             <span className="flex gap-2 justify-center items-center pb-4">
               <svg
@@ -107,6 +108,31 @@ const About = () => {
               continually improve on our services.
             </p>
           </div>
+        </div>
+      </section>
+      <section className="bg-[#74959A] px-12 py-10">
+        <h2 className="text-xl lg:text-2xl font-bold py-8 text-[#495371] text-center ">
+          Our Strength
+        </h2>
+        <div className="flex flex-col lg:flex-row gap-8 items-center justify-center">
+          <div className="w-full lg:w-2/4">
+            <img src={strength} alt="chemscrystals ourStrngth" className="w-[50%] m-auto"/>
+          </div>
+          <div className="w-full lg:w-2/4">
+            <p className="text-sm lg:text-lg leading-8 text-[#495371]">
+              Our outstanding team members are our biggest strength. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exerpariatur.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="px-12 text-[#495371] mb-10 mt-20">
+        <div className=" font-bold text-xl lg:text-3xl md:text-2xl py-4  text-center">
+          <h1>
+          Recommend Chemscrystals to a school today 
+          </h1>
         </div>
       </section>
     </>
