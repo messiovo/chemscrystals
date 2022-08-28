@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <>
-      <div className=" bg-[#495371] pb-8 flex items-center flex-col-reverse  lg:flex-row lg:p-20">
+      <div className=" bg-[#495371] mt-10 pb-8 flex items-center flex-col-reverse  lg:flex-row lg:p-20">
         <div className="lg:w-2/4 text-[#FDDB93] px-4 lg:px-14 pt-10 lg:pt-0">
           <h1 className="font-bold text-xl lg:text-3xl md:text-2xl pb-4 text-center">
             Let’s improve the coding <br /> and mental skill of your <br /> ward
@@ -34,13 +34,13 @@ const Hero = () => {
           <img
             src={python}
             alt="python"
-            className="w-[37%] md:w-[45%] rounded-full absolute lg:w-[50%]"
+            className="w-[37%] md:w-[40%]  rounded-full absolute lg:w-[50%]"
             data-aos="zoom-in-down"
           />
           <img
             src={abacus}
             alt="abacus"
-            className="w-[50%] rounded-full "
+            className="w-[50%]  rounded-full "
             data-aos="zoom-in-right"
           />
         </div>
