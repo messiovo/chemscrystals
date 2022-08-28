@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Contact.css";
 
 const Contact = () => {
   return (
     <div>
       <section className="flex flex-col gap-8 lg:flex-row justify-center mt-20  items-center mb-20">
         <div className="w-full lg:w-2/4 ">
-          <div className="w-60 h-60 bg-white m-auto"></div>
+          <div className="w-60 h-60 bg-white m-auto">Map</div>
         </div>
         <div className="w-full lg:w-2/4">
           <div className="w-60 h-[20rem] bg-[#495371] m-auto relative px-4 shadow-md">
@@ -133,6 +134,122 @@ const Contact = () => {
               <div className="w-14 h-14 bg-[#FDDB93] rounded-full"></div>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="bg-[#74959A] pb-20">
+        <h2 className="text-xl lg:text-2xl font-bold py-8 text-[#495371] text-center ">
+          Request a demo class
+        </h2>
+        <div>
+          <form action="">
+            <div className="flex flex-col lg:flex-row gap-4 lg:gap-20 justify-center items-center mb-8">
+              <span className="flex flex-col">
+                <label
+                  htmlFor="first name"
+                  className="text-[#495371] text-sm lg:text-lg font-semibold"
+                >
+                  First name
+                </label>
+                <input
+                  type="text"
+                  className="w-[17rem] h-10 px-4 outline-none placeholder-[#495371] bg-[#98B4AA] text-[#495371] text-sm lg:text-md font-semibold "
+                  placeholder="First name"
+                />
+              </span>
+              <span className="flex flex-col">
+                <label
+                  htmlFor="last name"
+                  className="text-[#495371] text-sm lg:text-lg font-semibold"
+                >
+                  Last name
+                </label>
+                <input
+                  type="text"
+                  className="w-[17rem] h-10 px-4 placeholder-[#495371] outline-none bg-[#98B4AA] text-[#495371] text-sm lg:text-md font-semibold  "
+                  placeholder="Last name"
+                />
+              </span>
+            </div>
+            <div className="flex flex-col lg:flex-row gap-4 lg:gap-20 justify-center items-center mb-8">
+              <span className="flex flex-col">
+                <label
+                  htmlFor="School title"
+                  className="text-[#495371] text-sm lg:text-lg font-semibold"
+                >
+                  School title
+                </label>
+                <input
+                  type="text"
+                  className="w-[17rem] h-10 px-4 outline-none placeholder-[#495371] bg-[#98B4AA] text-[#495371] text-sm lg:text-md font-semibold "
+                  placeholder="School director"
+                />
+              </span>
+              <span className="flex flex-col">
+                <label
+                  htmlFor="school name"
+                  className="text-[#495371] text-sm lg:text-lg font-semibold"
+                >
+                  School name
+                </label>
+                <input
+                  type="text"
+                  className="w-[17rem] h-10 px-4 outline-none placeholder-[#495371] bg-[#98B4AA] text-[#495371] text-sm lg:text-md font-semibold  "
+                  placeholder="Name of school"
+                />
+              </span>
+            </div>
+            <div className="flex flex-col lg:flex-row gap-4 lg:gap-20 justify-center items-center mb-8">
+              <span className="flex flex-col">
+                <label
+                  htmlFor="phone number"
+                  className="text-[#495371] text-sm lg:text-lg font-semibold"
+                >
+                  Phone number
+                </label>
+                <input
+                  type="number"
+                  className="w-[17rem] h-10 outline-none appearance-none placeholder-[#495371] bg-[#98B4AA] text-[#495371] text-sm lg:text-md font-semibold px-4"
+                  placeholder="+2347000000000"
+                />
+              </span>
+              <span className="flex flex-col">
+                <label
+                  htmlFor="address"
+                  className="text-[#495371] text-sm lg:text-lg font-semibold"
+                >
+                  Address
+                </label>
+                <input
+                  type="text"
+                  className="w-[17rem] h-10 outline-none placeholder-[#495371] bg-[#98B4AA] text-[#495371] text-sm lg:text-md font-semibold px-4 "
+                  placeholder="No 1, street name, lga, city, state"
+                />
+              </span>
+            </div>
+            <div className="flex flex-col gap-2 justify-center items-center">
+              <label
+                htmlFor="text area"
+                className="text-[#495371] text-sm lg:text-lg font-semibold"
+              >
+                Text area
+              </label>
+              <textarea
+                name=""
+                id=""
+                cols="28"
+                rows="6"
+                className="outline-none bg-[#98B4AA] mx-4 placeholder-[#495371] text-[#495371] text-sm lg:text-md py-4 font-semibold px-4 placeholder:"
+                placeholder="How many classes do you have in your school? The number of students in your school? How many students per class?. "
+              ></textarea>
+            </div>
+            <Link to="/contact">
+              <button
+                className="rounded-full px-[3rem] py-2 mt-4 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in "
+              >
+                Submit
+              </button>
+            </Link>
+          </form>
         </div>
       </section>
     </div>
