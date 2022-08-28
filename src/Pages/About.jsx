@@ -22,7 +22,7 @@ const About = () => {
           className="w-[50%] m-auto"
         />
       </section>
-      <section className=" bg-[#495371] rounded-t-[100%] mt-20 pb-20 px-12">
+      <section className=" bg-[#495371] mt-20 pb-20 px-12">
         <div>
           <h2 className="text-xl lg:text-2xl font-bold pt-8 text-[#FDDB93] text-center ">
             Our Values
