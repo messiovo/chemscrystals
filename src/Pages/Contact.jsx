@@ -5,7 +5,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div>
-      <section className="flex flex-col gap-8 lg:flex-row justify-center mt-20  items-center mb-20">
+      <section className="flex flex-col gap-8 lg:flex-row justify-center mt-[7rem]  items-center mb-20">
         <div className="w-full lg:w-2/4 ">
           <div className="w-60 h-60 bg-white m-auto">Map</div>
         </div>
@@ -245,7 +245,7 @@ const Contact = () => {
             </div>
             <Link to="/contact">
               <button
-                className="rounded-full px-[3rem] py-2 mt-4 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in "
+                className="rounded-full px-[6.8rem] py-2 mt-4 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in "
               >
                 Submit
               </button>

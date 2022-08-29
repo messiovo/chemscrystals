@@ -138,14 +138,35 @@ const About = () => {
       <section className="px-12 text-[#495371] mb-10 mt-20">
         <div className=" font-bold text-xl lg:text-3xl md:text-2xl py-4  text-center">
           <h1>Recommend Chemscrystals to a school today</h1>
-          <Link to="/contact">
-            <button
-              className="rounded-full px-[3rem] py-2 mt-10 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in "
-              data-aos="fade-up"
+
+          <button
+            className="rounded-full px-[3rem] flex gap-2 justify-center self-center  m-auto items-center py-2 mt-10 bg-[#495371] font-bold  text-[#FDDB93] text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in "
+            data-aos="fade-up"
+          >
+            <span>Share</span>
+            <svg
+              width="15"
+              height="15"
+              viewBox="0 0 50 50"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              Request a demo class
-            </button>
-          </Link>
+              <g clip-path="url(#clip0_138_8)">
+                <path
+                  d="M26.5477 10.7144V35.7144M26.5477 10.7144L18.2144 19.0477M26.5477 10.7144L34.881 19.0477M5.71436 39.881L7.00811 45.0581C7.23342 45.9595 7.75357 46.7598 8.48588 47.3316C9.21818 47.9035 10.1206 48.2142 11.0498 48.2144H42.0456C42.9748 48.2142 43.8772 47.9035 44.6095 47.3316C45.3418 46.7598 45.862 45.9595 46.0873 45.0581L47.381 39.881"
+                  stroke="#FDDB93"
+                  stroke-width="11"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_138_8">
+                  <rect width="50" height="50" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </button>
         </div>
       </section>
     </>
