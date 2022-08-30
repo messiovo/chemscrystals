@@ -75,7 +75,7 @@ const Footer = () => {
         <p>+2347032096957, +2348038835457</p>
         <p>chemscrystals@gmail.com</p>
       </div>
-      <p className="text-end text-xs  pt-10 px-4">
+      <p className="text-end text-xs text-light pt-10 px-4">
         Powered by ChemsCrystals
       </p>
     </div>

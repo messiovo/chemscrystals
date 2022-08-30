@@ -240,7 +240,7 @@ const Contact = () => {
                 cols="28"
                 rows="6"
                 className="outline-none bg-medium mx-4 placeholder-dark text-dark text-sm lg:text-md py-4 font-semibold px-4 placeholder:"
-                placeholder="How many classes do you have in your school? The number of students in your school? How many students per class?. "
+                placeholder="How many classes do you have in your school? The number of students in your school? How many students per class? "
               ></textarea>
             </div>
             <Link to="/contact">
