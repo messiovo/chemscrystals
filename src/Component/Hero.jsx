@@ -1,7 +1,7 @@
 import React from "react";
-import abacus from "./image/abacus.jpeg";
-import python from "./image/python1.jpg";
-import scratch from "./image/scratch1.jpg";
+import abacus from "./image/abacussmall.jpg";
+import python from "./image/pythonsmall.jpg";
+import scratch from "./image/scratchsmall.jpg";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -40,12 +40,14 @@ const Hero = () => {
             className="w-[37%] md:w-[40%]  rounded-full absolute lg:w-[50%]"
             data-aos="zoom-in-down"
           />
+         
           <img
             src={abacus}
             alt="abacus"
             className="w-[50%]  rounded-full "
             data-aos="zoom-in-right"
           />
+          
         </div>
       </div>
     </>

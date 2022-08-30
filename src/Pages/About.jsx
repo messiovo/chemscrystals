@@ -24,7 +24,7 @@ const About = () => {
           data-aos="fade-left"
         />
       </section>
-      <section className=" bg-dark mt-20 pb-20 px-12">
+      <section className=" bg-dark mt-20 pb-6 px-12">
         <div>
           <h2 className="text-xl lg:text-2xl font-bold pt-8 text-light text-center ">
             Our Values
@@ -112,7 +112,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="bg-dark px-12 py-10">
+      <section className="bg-dark px-12 pb-10">
         <h2 className="text-xl lg:text-2xl font-bold py-8 text-light text-center ">
           Our Strength
         </h2>
