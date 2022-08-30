@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Faq, Hero, SectionA, SectionB } from "../Component";
 import { Link } from "react-router-dom";
 import Carousel from "react-multi-carousel";
@@ -34,15 +34,12 @@ const Home = () => {
       answer: "Our program is suitable for kids 5 years and above",
     },
     {
-      question: "Who is our program for?",
+      question: "How do I get started ?",
       answer: "Our program is suitable for kids 5 years and above",
     },
+   
     {
-      question: "Who is our program for?",
-      answer: "Our program is suitable for kids 5 years and above",
-    },
-    {
-      question: "Who is our program for?",
+      question: "How much does our program cost?",
       answer: "Our program is suitable for kids 5 years and above",
     },
   ];
@@ -54,8 +51,8 @@ const Home = () => {
       <SectionA />
       <SectionB />
 
-      <section className=" bg-[#74959A] px-16  relative">
-        <h2 className="text-lg lg:text-xl font-bold pt-8 text-[#495371] text-center ">
+      <section className=" bg-dark px-16  relative">
+        <h2 className="text-lg lg:text-xl font-bold pt-8 text-light text-center ">
           What Client Say About Us
         </h2>
         <Carousel
@@ -112,7 +109,7 @@ const Home = () => {
           {card.map((items) => (
             <div
               key={id + items}
-              className=" bg-[#98B4AA] rounded-2xl text-sm lg:text-lg text-[#495371] p-7 mx-0 md:mx-4 lg:mx-4 flex flex-col gap-3 shadow-md shadow-[#495371]"
+              className=" bg-medium rounded-2xl text-sm lg:text-lg text-dark p-7 mx-0 md:mx-4 lg:mx-4 flex flex-col gap-3 shadow-md shadow-[#495371]"
             >
               <p className="">{items.text}</p>
               <span className="text-end  font-bold">
@@ -123,28 +120,28 @@ const Home = () => {
           ))}
         </Carousel>
       </section>
-      <section className=" p-10 h-[25rem] bg-[url(./image/section3.png)] flex flex-col items-center justify-center  bg-[black]/80 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
-        <span className=" text-lg lg:text-xl font-bold pb-4 text-[#FDDB93]">
+      <section className=" p-10 h-[25rem] bg-[url(./image/section3.png)] flex flex-col items-center justify-center  bg-dark/90 bg-no-repeat bg-cover bg-center bg-blend-saturation ">
+        <span className=" text-lg lg:text-xl font-bold pb-4 text-light">
           Try ChemsCrystals at your School!
         </span>
-        <span className="text-sm lg:text-lg leading-8 px-4 text-[#FDDB93]">
+        <span className="text-sm lg:text-lg leading-8 px-4 text-light">
           It will only take a minute
         </span>
         <Link to="/contact">
           <button
-            className="rounded-full px-[3rem] py-2 mt-10 bg-[#495371] font-bold m-auto block text-[#FDDB93] text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in "
+            className="rounded-full px-[3rem] py-2 mt-10 bg-dark font-bold m-auto block text-light text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in "
             data-aos="fade-up"
           >
             Request a demo class
           </button>
         </Link>
       </section>
-      <section className="px-12 text-[#495371] mb-10 mt-20">
+      <section className="px-12 text-dark mb-10 mt-20">
         <div className=" font-bold text-xl lg:text-3xl md:text-2xl py-4  text-center">
           <h1>Recommend Chemscrystals to a school today</h1>
 
           <button
-            className="rounded-full px-[3rem] flex gap-2 justify-center self-center  m-auto items-center py-2 mt-10 bg-[#495371] font-bold  text-[#FDDB93] text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in "
+            className="rounded-full px-[3rem] flex gap-2 justify-center self-center  m-auto items-center py-2 mt-10 bg-dark font-bold  text-light text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in "
             data-aos="fade-up"
           >
             <span>Share</span>
@@ -158,7 +155,7 @@ const Home = () => {
               <g clip-path="url(#clip0_138_8)">
                 <path
                   d="M26.5477 10.7144V35.7144M26.5477 10.7144L18.2144 19.0477M26.5477 10.7144L34.881 19.0477M5.71436 39.881L7.00811 45.0581C7.23342 45.9595 7.75357 46.7598 8.48588 47.3316C9.21818 47.9035 10.1206 48.2142 11.0498 48.2144H42.0456C42.9748 48.2142 43.8772 47.9035 44.6095 47.3316C45.3418 46.7598 45.862 45.9595 46.0873 45.0581L47.381 39.881"
-                  stroke="#FDDB93"
+                  stroke="#6CBAE1"
                   stroke-width="11"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -173,7 +170,7 @@ const Home = () => {
           </button>
         </div>
       </section>
-      <section className="  text-[#495371] lg:flex-row bg-[#74959A] py-7 px-4">
+      <section className="  text-light lg:flex-row bg-dark py-7 px-4">
         <h2 className="text-lg lg:text-xl font-bold pb-4  text-center ">
           Frequently asked questions (FAQ)
         </h2>

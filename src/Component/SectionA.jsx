@@ -7,14 +7,14 @@ const SectionA = () => {
     <>
       
       <div className="py-10 px-4">
-        <p className="text-[#495371] text-center text-xl lg:text-2xl font-bold">
+        <p className="text-dark text-center text-xl lg:text-2xl font-bold">
           we work with schools to <br />
           organize kids coding and <br /> abacus mental math for your pupils.
         </p>
       </div>
 
-      <section className=" flex flex-col-reverse items-center justify-center lg:flex-row bg-[#74959A] py-10 ">
-        <div className="lg:w-2/4 text-center text-[#495371] py-2 px-6">
+      <section className=" flex flex-col-reverse items-center justify-center lg:flex-row bg-dark py-10 ">
+        <div className="lg:w-2/4 text-center text-light py-2 px-6">
           <h2 className="text-lg lg:text-xl font-bold py-4">Kids Coding</h2>
           <p className="text-sm lg:text-lg leading-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -34,7 +34,7 @@ const SectionA = () => {
           />
         </div>
       </section>
-      <section className="  flex flex-col items-center justify-center lg:flex-row bg-[#74959A] py-10 ">
+      <section className="  flex flex-col items-center justify-center lg:flex-row bg-dark py-10 ">
         <div className="lg:w-2/4">
           <img
             src={hero1}
@@ -43,7 +43,7 @@ const SectionA = () => {
             data-aos="fade-right"
           />
         </div>
-        <div className="lg:w-2/4 text-center text-[#495371] py-2 px-6">
+        <div className="lg:w-2/4 text-center text-light py-2 px-6">
           <h2 className="text-lg lg:text-xl font-bold py-4">
             Abacus Mental Math
           </h2>

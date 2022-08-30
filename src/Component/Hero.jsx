@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <>
-      <div className=" bg-[#495371] mt-10 pb-8 flex items-center flex-col-reverse  lg:flex-row lg:p-20">
-        <div className="lg:w-2/4 text-[#FDDB93] px-8 lg:px-14 pt-2 lg:pt-0">
+      <div className=" bg-dark mt-10 pb-8 flex items-center flex-col-reverse  lg:flex-row lg:p-20">
+        <div className="lg:w-2/4 text-light px-8 lg:px-14 pt-2 lg:pt-0">
           <h1 className="font-bold text-xl lg:text-3xl md:text-2xl pb-4 text-center">
             Let’s improve the coding <br /> and mental skill of your <br /> ward
           </h1>
@@ -20,7 +20,7 @@ const Hero = () => {
           </p>
           <Link to="/contact">
             <button
-              className="rounded-full text-[#495371] px-16 py-2 bg-[#98B4AA] font-bold m-auto block hover:scale-110 transition-all duration-300 ease-in text-sm lg:text-md"
+              className="rounded-full text-dark px-16 py-2 bg-light font-bold m-auto block hover:scale-110 transition-all duration-300 ease-in text-sm lg:text-md"
               data-aos="fade-up"
             >
               Get in touch
