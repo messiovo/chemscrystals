@@ -163,7 +163,7 @@ const Hub = () => {
           autoPlay
           autoPlaySpeed={2000}
           centerMode={false}
-          className="z-10"
+          className="z-10 rounded-2xl"
           containerClass="container-with-dots"
           draggable
           focusOnSelect={false}

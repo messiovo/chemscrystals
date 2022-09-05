@@ -59,7 +59,7 @@ const Home = () => {
           autoPlay
           autoPlaySpeed={2000}
           centerMode={false}
-          className=" absolute top-[2rem] z-20"
+          className=" absolute top-[2rem] z-10 rounded-2xl shadow"
           containerClass="container-with-dots"
           draggable
           focusOnSelect={false}
