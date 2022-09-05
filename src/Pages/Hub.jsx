@@ -58,7 +58,7 @@ const Hub = () => {
           <img
             src={scratch}
             alt=""
-            className="w-[50%] m-auto"
+            className="w-[50%]  m-auto"
             data-aos="fade-right"
           />
         </div>
