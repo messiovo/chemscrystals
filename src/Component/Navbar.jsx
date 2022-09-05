@@ -28,12 +28,12 @@ const Navbar = () => {
         <div
           className={`${
             !backdrop ? "left-[-90rem]" : "left-0"
-          } w-full h-full fixed top-[4.0rem] lg:top-[4.5rem] z-30 bg-dark/90 transition-all duration-1000 ease-in`}
+          } w-full h-full fixed top-[4.0rem] lg:top-[4.5rem] z-30 bg-dark/90 transition-all duration-700 ease-in`}
         ></div>
         <ul
           className={`${
             !open ? "left-[-24rem]" : "left-0"
-          } bg-dark flex flex-col gap-16 px-12 pt-14 h-full fixed top-[4.0rem] lg:top-[4.5rem] font-semibold text-light transition-all duration-500 ease-in z-30  overflow-hidden`}
+          } bg-dark flex flex-col gap-16 px-12 pt-14 h-full fixed top-[4.0rem] lg:top-[4.5rem] font-semibold text-light transition-all duration-700 ease-in z-30  overflow-hidden`}
         >
           <li>
             <Link to="/" className="flex gap-2 items-center">
@@ -75,7 +75,6 @@ const Navbar = () => {
                   <path
                     d="M45 31.875C47.0711 31.875 48.75 30.1961 48.75 28.125C48.75 26.0539 47.0711 24.375 45 24.375C42.9289 24.375 41.25 26.0539 41.25 28.125C41.25 30.1961 42.9289 31.875 45 31.875Z"
                     fill="#102C41"
-                    
                   />
                 </svg>
               </span>
@@ -144,7 +143,6 @@ const Navbar = () => {
         </ul>
         <div className="flex items-center pr-6 gap-2 lg:pr-8">
           <img src={logo} alt="" className="w-8 h-8 lg:w-10 lg:h-10" />
-          
         </div>
       </nav>
     </div>

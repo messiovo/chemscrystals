@@ -12,7 +12,7 @@ const About = () => {
           of children and young adult through our specialized educational
           program
         </h1>
-        <p className="text-sm lg:text-lg leading-8 pb-8 ">
+        <p className="text-sm lg:text-lg leading-8 pb-8 font-semibold">
           Because we understand the importance of technological skills in our
           today’s world, we believe that every child should be harness with this
           skill to meet tomorrow’s opportunity.
