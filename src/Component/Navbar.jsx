@@ -28,7 +28,7 @@ const Navbar = () => {
         <div
           className={`${
             !backdrop ? "left-[-90rem]" : "left-0"
-          } w-full h-full fixed top-[4.0rem] lg:top-[4.5rem] z-30 bg-dark/90 transition-all duration-500 ease-in`}
+          } w-full h-full fixed top-[4.0rem] lg:top-[4.5rem] z-30 bg-dark/90 transition-all duration-1000 ease-in`}
         ></div>
         <ul
           className={`${
@@ -143,7 +143,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="flex items-center pr-6 gap-2 lg:pr-8">
-          <img src={logo} alt="" className="w-6 h-6 lg:w-8 lg:h-8" />
+          <img src={logo} alt="" className="w-8 h-8 lg:w-10 lg:h-10" />
           
         </div>
       </nav>
