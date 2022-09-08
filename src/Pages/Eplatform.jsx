@@ -1,5 +1,6 @@
 import React from "react";
 import { OnlineCard, Scratchcard } from "../Component";
+import { Link } from "react-router-dom";
 
 const Eplatform = () => {
   const card1 = [
@@ -141,6 +142,14 @@ const Eplatform = () => {
           </li>
           
         </ul>
+        <Link to="/contact">
+            <button
+              className="rounded-full text-light px-16 py-2 bg-dark font-bold m-auto block hover:scale-110 transition-all duration-300 ease-in text-sm lg:text-md"
+              data-aos="fade-up"
+            >
+              Register
+            </button>
+          </Link>
       </section>
       <section className="bg-dark p-10">
         <h2 className="text-lg lg:text-xl font-bold pb-4 text-light text-center ">

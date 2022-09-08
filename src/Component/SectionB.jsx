@@ -11,7 +11,7 @@ const SectionB = () => {
         <p className="text-sm lg:text-lg leading-8  px-4 text-light text-center">
           Wherever you are, start learning and improve your skills on our various courses. 
         </p>
-        <Link to="/">
+        <Link to="/online">
           <button
             className="rounded-full px-16 py-2 mt-10 mb-6 bg-dark font-bold m-auto block text-light  text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in "
             data-aos="fade-up"
