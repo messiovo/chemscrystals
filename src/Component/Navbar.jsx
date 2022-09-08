@@ -20,12 +20,12 @@ const Navbar = () => {
     <div className="bg-medium fixed w-full z-30">
       <nav className="flex  p-5 items-center justify-between">
         <div
-          className="pl-7 cursor-pointer lg:pl-8"
+          className=" cursor-pointer lg:pl-5"
           onClick={navHandler}
           onBlur={blurBody}
           tabIndex={40}
         >
-          <span className="w-10 h-[0.2rem] lg:w-14 lg:h-1  rounded-full  bg-dark block after:content-[''] after:relative before:w-12 before:h-[0.2rem] before:lg:w-16 before:lg:h-1 after:w-10 after:h-[0.2rem] after:lg:w-14 after:lg:h-1 after:bg-dark after:block after:mt-2 after:float-right after:ml-auto before:content-[''] before:relative   before:mt-3 before:float-right before:ml-auto before:bg-dark before:block self-end before:self-end after:self-end before:rounded-full after:rounded-full"></span>
+          <span className="w-8 h-[0.2rem] lg:w-14 lg:h-1  rounded-full  bg-dark block after:content-[''] after:relative before:w-10 before:h-[0.2rem] before:lg:w-16 before:lg:h-1 after:w-8 after:h-[0.2rem] after:lg:w-14 after:lg:h-1 after:bg-dark after:block after:mt-2 after:float-right after:ml-auto before:content-[''] before:relative   before:mt-3 before:float-right before:ml-auto before:bg-dark before:block self-end before:self-end after:self-end before:rounded-full after:rounded-full"></span>
         </div>
         <div
           className={`${
@@ -192,9 +192,9 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <div className="flex items-center pr-6 gap-2 lg:pr-8">
-          <img src={logo} alt="" className="w-8 h-8 lg:w-10 lg:h-10" />
-          <h2 className="text-dark text-md font-bold lg:text-lg">ChemsCrystals</h2>
+        <div className="flex items-center  gap-2 lg:pr-6">
+          <img src={logo} alt="" className="w-6 h-6 lg:w-8 lg:h-8" />
+          <h2 className="text-dark text-sm font-bold lg:text-lg">ChemsCrystals</h2>
           
         </div>
       </nav>

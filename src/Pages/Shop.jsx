@@ -8,7 +8,7 @@ const Shop = () => {
           Let us bring your educative materials to your doorstep
         </h1>
         <p className="font-semi-bold  lg:text-lg md:text-lg pb-4 text-md">
-          educative games, teaching aids, back to shool items and lots more
+          educative games, teaching aids, back-to-shool items and lots more
         </p>
         <button
           className="rounded-full text-dark px-16 py-2 bg-medium font-bold m-auto block hover:scale-110 transition-all duration-300 ease-in text-sm lg:text-md"
