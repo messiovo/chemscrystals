@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom/index";
 import { Footer, Navbar } from "./Component";
-import { Home, About, Hub, Contact } from "./Pages";
+import { Home, About, Hub, Contact, Eplatform, Shop } from "./Pages";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -23,9 +23,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/hub" element={<Hub />} />
-        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/online" element={<Eplatform />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
